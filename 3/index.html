@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LOGO</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<link rel="icon" href="img/audio.png">
+</head>
+<body>
+	<div id="home">
+		<div class="header">
+			<div class="logo animated infinite pulse"><img src="img/LOGO.png" alt=""></div>
+			<ul class="nav-m">
+				<li class="nav_item nav_item1"><a href="#">Home</a></li>
+				<li class="nav_item nav_item2"><a href="#about">About</a></li>
+				<li class="nav_item nav_item3"><a href="#">Services</a></li>
+				<li class="nav_item nav_item4"><a href="#">Portfolio</a></li>
+				<li class="nav_item nav_item5"><a href="#">Shop</a></li>
+				<li class="nav_item nav_item6"><a href="#">Contact</a></li>
+				<li class="nav_item nav_item7"><a href="#">Pages</a></li>
+				<li class="images">
+				<span class="nav_item nav_item8"><a href="#"><div class="nav_img"><img src="img/fbicon.png" alt="" class="navI"></div></a></span>
+				<span class="nav_item nav_item9"><a href="#"><div class="nav_img"><img src="img/twicon.png" alt="" class="navI"></div></a></span>
+				<span class="nav_item nav_item10"><a href="#"><div class="nav_img"><img src="img/gicon.png" alt="" class="navI"></div></a></span>
+				</li>
+			</ul>
+			<ul class="nav">
+				<li class="nav_item nav_item1"><a href="#">Home</a></li>
+				<li class="nav_item nav_item2"><a href="#about">About</a></li>
+				<li class="nav_item nav_item3"><a href="#">Services</a></li>
+				<li class="nav_item nav_item4"><a href="#">Portfolio</a></li>
+				<li class="nav_item nav_item5"><a href="#">Shop</a></li>
+				<li class="nav_item nav_item6"><a href="#">Contact</a></li>
+				<li class="nav_item nav_item7"><a href="#">Pages</a></li>
+				<li class="images">
+				<span class="nav_item nav_item8"><a href="#"><div class="nav_img"><img src="img/fbicon.png" alt="" class="navI"></div></a></span>
+				<span class="nav_item nav_item9"><a href="#"><div class="nav_img"><img src="img/twicon.png" alt="" class="navI"></div></a></span>
+				<span class="nav_item nav_item10"><a href="#"><div class="nav_img"><img src="img/gicon.png" alt="" class="navI"></div></a></span>
+				</li>
+			</ul>
+
+		</div>
+		<i class="fa fa-bars bar-icon"></i>
+		<div class="home_main">
+			<div id="typed1">
+			<h1 class="home_main_h1">THE BEST SERVICES</h1></div>
+			<div id="typed2"><p class="home_main_p">We provide the best services in the world We provide the best services in the world <br>We provide the best services in the world</p></div>
+			
+			<span id="typedhere1" class="home_main_h1"></span>
+			<span id="typedhere2" class="home_main_p"></span>
+			<a href="#about" class="btn">HIRE US</a>
+		</div>
+	</div>
+	<div id="about">
+		<div class="img"><img src="img/write.png" width="150%" height="auto" alt="write" class="width"></div>
+		<div class="text">
+			<h1 class="text_h1">A LITTLE ABOUT US</h1>
+			<p class="text_p1 text_p">We are  a company based in india with the motto “Digitalally<br>
+Designed India”. We are  a company based in india with the motto<br>
+“Digitalally  Designed India”. We are  a company based in india<br>
+with the motto “Digitalally  Designed India”.</p>
+			<p class="text_p2 text_p">We are  a company based in india with the motto “Digitalally<br>
+Designed India”. We are  a company based in india with the <br>
+motto “Digitalally Designed India”.  We are  a company based in<br>
+India with the motto “Digitalally Designed India”.  We are  a <br>
+company based in india with the motto “Digitalally Designed India”.</p>
+			<button class="text_btn">READ MORE DETAILS</button>
+		</div>
+	</div>
+	<!-------------scripts------------->
+
+
+
+	<script src="dist/js/swiper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+	<script>
+		var typed = new Typed('#typedhere1', {
+    stringsElement: '#typed1',
+    startDelay: 500,
+    typeSpeed: 40,
+    showCursor: false,
+  });
+
+		var typed = new Typed('#typedhere2', {
+    stringsElement: '#typed2',
+    startDelay: 2000,
+    typeSpeed: 40,
+    showCursor: false,
+  });
+	$('.nav-m').slideToggle(1);
+		$('.bar-icon').on('click', function (){
+			$('.nav-m').slideToggle(700);
+		});
+
+	</script>
+</body>
+</html>

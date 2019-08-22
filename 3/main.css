@@ -1,0 +1,315 @@
+@font-face {
+	font-family:SansationRegular;
+	src:url(fonts/Sansation_Regular.ttf);
+}
+
+@font-face {
+	font-family:NEOTERICBold;
+	src:url(fonts/NEOTERIC¬ - Bold DEMO VERSION.ttf);
+}
+
+@font-face {
+	font-family:NEOTERICRegular;
+	src:url(fonts/NEOTERIC¬ - Regular DEMO VERSION.ttf);
+}
+
+@font-face {
+	font-family:SansationBold;
+	src:url(fonts/Sansation_Bold.ttf);
+}
+
+@font-face {
+	font-family:SansationBoldItalic;
+	src:url(fonts/Sansation_Bold_Italic.ttf);
+}
+
+@font-face {
+	font-family:SansationItalic;
+	src:url(fonts/Sansation_Italic.ttf);
+}
+
+@font-face {
+	font-family:SansationLight;
+	src:url(fonts/Sansation_Light.ttf);
+}
+
+@font-face {
+	font-family:SansationLightItalic;
+	src:url(fonts/Sansation_Light_Italic.ttf);
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	display: flex;
+	padding: 22px 32px;
+	border-bottom:1px solid #6b618c;
+}
+
+.nav-m{
+	margin-left: 100px;
+}
+
+.nav{
+	display: flex;
+	margin-left: 95px;
+	margin-top: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#home{
+	background: url(img/bgHome.png);
+	-webkit-background-size: cover;
+	        background-size: cover; 
+}
+
+.nav_item{
+	font-family: SansationRegular;
+	font-size: 20pt;
+	color: white;
+	margin-left: 60px;
+}
+
+.nav .nav_item:nth-child(1){
+	margin-left: 0;
+}
+
+
+
+.nav_item9{
+	margin-left: 7px;
+}
+
+.nav_item10{
+	margin-left: 7px;
+}
+
+
+a:hover{
+	transition: 0.2s;
+	color: #097e89;
+}
+
+.nav_img{
+	border:1px solid #6b618c;
+	text-align: center;
+	background: transparent;
+	padding: 0;
+	transition: 0.3s;
+	line-height: 70%;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+
+.nav .images{
+	margin-left: 60px;
+}
+
+.images{
+	display: flex;
+}
+
+.nav_img:hover{
+	background: #6b618c;
+}
+
+.logo{
+	height: 18px;
+}
+
+i{
+	visibility: hidden;
+	color: white;
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	cursor: pointer;
+}
+
+.home_main{
+	display: flex;
+	flex-direction: column;
+	margin-top: 175px;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.home_main_h1{
+	font-family: SansationBold;
+	font-size: 48pt;
+	color: white;
+	margin-bottom: 30px;
+}
+
+.btn{
+	color: white;
+	font-family: SansationRegular;
+	font-size: 14pt;
+	text-align: center;
+	line-height: 40px;
+	width: 115px;
+	height: 35px;
+	border:3px solid white;
+	margin-bottom: 180px;
+}
+
+.btn:hover{
+	background: #6b618c;
+	color: white;
+}
+
+.home_main_p{
+	font-size: 10.39pt;
+	font-family: SansationRegular;
+	color: #ffffff;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+#about{
+	display: flex;
+}
+
+.text_btn{
+	width: 320px;
+	height: 50px;
+	color: white;
+	font-size: 9,28;
+	font-family: NEOTERICBold;
+	background-color: transparent;
+	border:none;
+	border-radius: 2px;
+	background: #05a0af;
+}
+
+.text_btn:hover{
+	transition: 0.3s;
+	border-right: 3px solid rgba(46, 50, 50, 0.32);
+	border-top: 3px solid rgba(46, 50, 50, 0.32);
+}
+
+.text_btn:active{
+	transition: 0.3s;
+	border-right: 3px solid rgba(46, 50, 50, 0.32);
+	border-top: 3px solid rgba(46, 50, 50, 0.32);
+	border-left: 3px solid rgba(46, 50, 50, 0.32);
+	border-bottom: 3px solid rgba(46, 50, 50, 0.32);
+}
+
+.text_h1{
+	font-size: 24pt;
+	color: black;
+	font-family: SansationRegular;
+	border-bottom: 2px solid black;
+}
+
+.text_p1{
+	margin-bottom: 30px;
+}
+
+.text_p2{
+	margin-bottom: 45px;
+}
+
+
+.text_p{
+	font-size: 11pt;
+}
+
+.text{
+	margin-right: 100px;
+	line-height: 1.5;
+	margin-top: 50px;
+	margin-left: 25%;
+	position: relative;
+	width: 400px;
+	height: 407px;
+}
+
+@media (max-width: 1331px) {
+	.nav{
+		flex-wrap: wrap;
+	}
+
+	.nav_item{
+		margin-top: 10px;
+	}
+
+	.text_p1{
+	margin-bottom: 20px;
+}
+
+.text_p2{
+	margin-bottom: 20px;
+}
+
+	.text{
+		margin-left: 45px;
+		margin-top: 10px;
+
+	}
+	.width{
+		width: 100%;
+	}
+}
+
+@media (max-width: 991px) {
+	i{
+		visibility: visible;
+	}
+
+	.nav{
+		visibility: hidden;
+	}
+
+
+	.text_p2{
+		line-height: 1.3;
+	}
+
+	.text_p1{
+		line-height: 1.3;
+	}
+
+	.text{
+			margin-left: 10px;
+			margin-top: 0px;
+	}
+
+	
+}
+
+
+@media (max-width: 420px) {
+	.text_p2{
+		line-height: 1.5;
+	}
+
+	.text_p1{
+		line-height: 1.5;
+	}
+
+	.text_h1{
+		margin-bottom: 10px;
+		font-size: 20pt;
+	}
+
+
+}
+
