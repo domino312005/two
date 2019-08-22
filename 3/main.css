@@ -75,7 +75,8 @@ a{
 #home{
 	background: url(img/bgHome.png);
 	-webkit-background-size: cover;
-	        background-size: cover; 
+	        background-size: cover;
+	        min-height: 640px; 
 }
 
 .nav_item{
@@ -184,6 +185,7 @@ i{
 
 #about{
 	display: flex;
+	min-height: 640px;
 }
 
 .text_btn{
@@ -277,6 +279,7 @@ i{
 	.nav{
 		visibility: hidden;
 	}
+
 
 
 	.text_p2{
