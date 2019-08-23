@@ -668,7 +668,9 @@ footer{
 		margin-bottom: 10px;
 		font-size: 20pt;
 	}
-
+	.main_item_btn{
+		height: 80px;
+	}
 
 }
 
