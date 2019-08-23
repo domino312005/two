@@ -651,7 +651,9 @@ footer{
 			margin-top: 0px;
 	}
 
-	
+	.main_item_btn{
+		height: 130px;
+	}
 }
 
 
@@ -668,9 +670,7 @@ footer{
 		margin-bottom: 10px;
 		font-size: 20pt;
 	}
-	.main_item_btn{
-		height: 80px;
-	}
+	
 
 }
 
