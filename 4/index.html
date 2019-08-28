@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="dist/css/swiper.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="icon" href="img/audio.png">
+</head>
+<body>
+	<div id="home">
+		<header class="home_header">
+			<div class="logo"><img src="img/logo.png" alt=""></div>
+			<ul class="nav">
+				<li><a href="#" class="nav_item2">home</a></li>
+                <li><a href="#about" class="nav_item2">about</a></li>
+                <li><a href="#" class="nav_item2">service</a></li>
+                <li><a href="#" class="nav_item2">portfolio</a></li>
+                <li><a href="#" class="nav_item2">contact</a></li>
+			</ul>
+			<nav>
+            <div class="wrapper">
+             <div class="menuToggle">MENU</div>
+            <ul class="menu clearfix">
+            	<li><a href="#" class="nav_item2">home</a></li>
+                <li><a href="#about" class="nav_item2">about</a></li>
+                <li><a href="#" class="nav_item2">service</a></li>
+                <li><a href="#" class="nav_item2">portfolio</a></li>
+                <li><a href="#" class="nav_item2">contact</a></li>
+            </ul>
+           </div>
+        </nav>
+		</header>
+		<div class="home_main">
+			
+
+			<div class="home_main_text">
+				<h1 class="text_h1">
+					Luis Oenrique
+				</h1>
+				<p class="text_p">
+					User Experience / User Interface Expert
+				</p>
+				<div class="btns">
+					<button class="text_button text_button1">
+						KNOW MORE
+					</button>
+					<button class="text_button text_button2">
+						HIRE ME
+					</button>
+				</div>
+			</div>
+			<div>
+			<img src="img/imgface.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div id="about">
+		<div class="about_part1">
+			<img src="img/title_line.png" alt="" width="60px" height="5px">
+			<h1 class="about_part_h1">KNOW MORE <br> ABOUT ME</h1>
+			<p class="about_part_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean<br> commodo ligula eget dolor. Aenean massa. Cum sociis natoque<br> penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br> Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br> Nulla consequat massa quis enim.</p>
+			<button class="about_part_btn">DOWNLOAD MY CV</button>
+		</div>
+		<div class="about_part2">
+			<img src="img/aboutimg.png" alt="" width="573px" height="auto">
+		</div>
+	</div>
+
+
+	<!-- --------------------scripts-------------------- -->
+	<script src="dist/js/swiper.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script>
+		$(function(){
+
+    $('.menuToggle').on('click', function() {
+       $('.menu').slideToggle(300, function(){
+            if( $(this).css('display') === "none"){
+                $(this).removeAttr('style');
+            }
+       });
+
+    });
+
+
+
+});
+	</script>
+</body>
+</html>
